@@ -1,0 +1,369 @@
+body {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 1.5;
+    -webkit-font-smothing: antialiased;
+    -moz-osx-font-smothing: grayscale;
+    position: relative;
+    min-width: 1920px;
+    min-height: 2075px;
+background-color: #F4F5F5;;
+}
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+h1, h4 { 
+    margin: 0;
+    font-weight: normal;
+}
+.wrapper {
+    position: absolute;
+    height: 1406px; 
+    background: #fff;
+    min-width: 1920px;
+}
+.header {
+    position: absolute;
+    width: 1920px;
+    height: 412px;
+background: url(./img/headline\ 1.png) no-repeat;
+background-size: cover;
+}
+.logo__pic {
+    width: 92px;
+height: 42px;
+background-size: cover;
+margin: 29px 50px 50px 392px;
+
+}
+.nav__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+    
+}
+.nav__list {
+    margin: -88px 0px 0px 555px;
+}
+.nav__link {
+    width: 264px;
+    height: 19px;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+    text-decoration: none;
+    color: #fff;
+
+}
+.nav__link:hover {
+    color: #F5170E;
+    
+}
+.contacts {
+    position: absolute;
+font-style: normal;
+text-align: right;
+}
+.contacts__dropdown {
+    width: 191px;
+    height: 35px;
+    margin: -39px 0px 0px 1341px;
+}
+.contact__phone {
+    text-decoration: none;
+    font-weight: 400;
+line-height: 35px;
+    font-size: 26px;
+    color: #fff;
+    width: 191px;
+    height: 35px;
+align-items: center;
+}
+.contacts__workhours {
+    font-size: 13px;
+    margin-top: -7px;
+    text-decoration: underline;
+    color: #fff;
+    margin-top: -6px;
+}
+.hero__title {
+    width: 259px;
+height: 98px;
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 98px;
+color: #fff;
+margin: 101px 0px 0px 390px;
+}
+.btn__list {
+    width: 150px;
+height: 19px;
+ margin: 100px 10px 10px 385px;
+}
+.btn__item {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.btn-link {
+     display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+margin-left: 0px;
+margin-right: 0.5px;
+}
+.btn-link:hover {
+    color: #F5170E;
+}
+.services {
+    position: absolute;
+width: 1168px;
+height: 833px;
+margin: 510px 362px 0px 390px;
+}
+.services__img {
+    margin-bottom: -54px;
+}
+.services__title {
+    position: absolute;
+    width: 318px;
+height: 49px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 49px;
+color: black;
+margin-left: 515px;
+margin-top: -277px;
+}
+.services__text {
+    width: 652px;
+height: 136px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+margin: -200px 50px 160px 515px;
+}
+.services__btn {
+    box-sizing: border-box;
+    position: absolute;
+    width: 168px;
+    height: 55px;
+    color: #F5170E;
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+align-items: center;
+display: flex;
+justify-content: center;
+text-transform: uppercase;
+   border: 2px solid #F5170E;
+   border-radius: 35px;
+   margin-top: -124px;
+   margin-left: 515px;
+   margin-bottom: px;
+}
+.services__btn:hover {
+background: #F5170E;
+color: #fff;
+}
+.paginator {
+    min-width: 700px;
+height: 53px;
+display: inline-block;
+    vertical-align: middle;
+    margin: -1px 0px 100px 739px;
+}
+.pagination {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 600px;
+min-height: 53px;
+margin-left: -170px;
+margin-top: 2px;
+
+}
+.pager {
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+width: 3px;
+height: 21px;
+    font-weight: 700;
+font-size: 16px;
+line-height: 21px;
+line-height: 1.4;
+margin-right: 27px;
+color: #000000;
+text-decoration: none;
+padding-top: 15px;
+text-decoration: nonre;
+}
+.pager:hover {
+    background-color: #F5170E;
+    align-items: center;
+    display: inline;
+    justify-content: center;
+padding: 5px 11px 6px 11px;
+border-radius: 30px;
+}
+
+.pager-text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 125px;
+height: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+margin: 8px -54px 0px -89px;
+}
+.partners {
+    position: absolute;
+    width: 1920px;
+height: 537px;
+margin: 1406px 0px 0px 0px;
+}
+.partners__title {
+    width: 254px;
+    height: 65px;
+    margin: 88px 0px 0px 390px;
+}
+.partners__title-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    align-items: flex-end;
+    color: #1A1B1E;
+}
+.partners__list {
+   margin: 84px 0px 50px 350px;
+    
+}
+.partners__item {
+    position: relative;
+    display: inline;
+    vertical-align: middle;
+   margin-right: 45px;
+   margin-left: 40px;
+}
+.partners__img-img-one {
+    margin-right: 23px;  
+    margin-left: 9px;
+    margin-top: -5px;
+}
+.partners__list-one {
+    margin: 70px 20px 50px 350px;
+}
+.partners__img-one {
+    margin-right: 5px;
+    margin-left: 0px; 
+}
+.partners__img-img {
+    margin-left: -20px;
+    margin-right: -35px;
+}
+.partners__img-one-one {
+    margin-top: -10px;
+}
+.footer {
+    position: absolute;
+    margin-top: 1943px;
+    width: 1920px;
+height: 132px;
+background:  #001821;
+}
+.logo-footer {
+    position: absolute;
+    margin: -15px 0px 0px 390px;
+   
+}
+.nav__item-footer {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 50px;
+    
+}
+.nav__list-footer {
+    margin: 58px 0px -19px 550px;
+}
+.nav__link-footer {
+    width: 264px;
+    height: 19px;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+    text-decoration: none;
+    color: #fff;
+
+}
+.nav__link-footer:hover {
+    color: #F5170E;
+    
+}
+.contacts-footer {
+    position: absolute;
+font-style: normal;
+text-align: right;
+}
+.contacts__dropdown-footer {
+    width: 191px;
+    height: 35px;
+    margin: -60px 0px 0px 1335px;
+    font-size: 11px;
+    text-decoration: underline;
+    color: #fff;
+}
+.contact__phone-footer {
+    text-decoration: none;
+    font-weight: 400;
+line-height: 35px;
+    font-size: 26px;
+    color: #fff;
+    width: 191px;
+    height: 35px;
+margin: 50px 0px 0px 0px;
+}
+.socials__list{
+    position: absolute;
+   margin-left: 1090px;
+   margin-top: -15px;
+}
+.cocial__item {
+    width: 174px;
+height: 36px;
+    display: inline;
+    vertical-align: middle;
+    margin: 0px 6px 0px 0px;
+}
+
+
+
